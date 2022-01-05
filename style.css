@@ -5,7 +5,42 @@ body {
 }
 h1 {
     font-size: 50px;
+    color: #333;
+    margin: 0;
+}
+p {
+    color: #3f3f3f;
 }
 section {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.main div {
+    width: 50%;
+}
+.focus {
+    border-left: 2px solid orangered;
+    padding: 0 20px;
+}
+.orange {
+    color: tomato;
+    display: block;
+}
+.btn {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+.mission-p {
+    padding-right: 20%;
+}
+.main-image img {
+    width: 80%;
+    height: 700px;
 }
