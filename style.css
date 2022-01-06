@@ -15,6 +15,7 @@ section {
     padding: 0 10%;
     margin-bottom: 150px;
 }
+
 .community h2,
 .develop h2,
 .own-project h2 {
@@ -28,9 +29,21 @@ section {
     align-items: center;
     justify-content: space-between;
 }
+
 .block {
     display: block;
 }
+.coading,
+.project {
+    display: flex;
+    justify-content: center;
+}
+.coading img,
+.project img {
+    width: auto;
+    height: 500px;
+}
+
 .main div,
 .develop div,
 .community div {
@@ -67,8 +80,8 @@ section {
 }
 
 .main-image img {
-    width: 80%;
-    height: 700px;
+    width: 600px;
+    height: 100%;
 }
 
 .my-mission h1 {
@@ -85,7 +98,7 @@ section {
 
 .card {
     width: 350px;
-    height: 400px;
+    height: 300px;
     border-radius: 20px;
     padding: 2% 2%;
 }
@@ -129,21 +142,16 @@ section {
     justify-content: center;
 }
 
-.coading,
-.project {
-    display: flex;
-    justify-content: center;
+.own-project {
+    background-image: url(images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100px;
 }
-.coading img,
-.project img {
-    width: auto;
-    height: 500px;
-}
-
 .own-project h2 {
     color: tomato;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom:40px;
 }
 .own-project-card {
     width: 300px;
@@ -158,6 +166,8 @@ section {
 .own-project-img img {
     width: 200px;
 }
+
+/* footer Start */
 
 footer {
     background-color: rgb(0, 0, 34);
@@ -175,3 +185,5 @@ footer p {
     margin: 0;
     color: #f7f7f7;
 }
+
+/* footer end */
