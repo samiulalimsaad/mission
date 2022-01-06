@@ -8,6 +8,11 @@ h1 {
     color: #333;
     margin: 0;
 }
+h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 0;
+}
 p {
     color: #3f3f3f;
 }
@@ -21,17 +26,25 @@ section {
     align-items: center;
     justify-content: space-between;
 }
-.main div {
+.block {
+    display: block;
+}
+.main div,
+.develop div,
+.community div {
     width: 50%;
 }
+
 .focus {
     border-left: 2px solid orangered;
     padding: 0 20px;
 }
+
 .orange {
     color: tomato;
     display: block;
 }
+
 .btn {
     background-color: tomato;
     color: #fff;
@@ -41,43 +54,86 @@ section {
     display: inline-block;
     margin: 20px 0;
 }
+
 .mission-p {
     padding-right: 20%;
 }
+
 .main-image {
     display: flex;
     justify-content: center;
 }
+
 .main-image img {
     width: 80%;
     height: 700px;
 }
+
 .my-mission h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     color: navy;
 }
+
 .tomato {
     color: tomato;
     margin-left: 10px;
 }
+
 .card {
     width: 350px;
     height: 400px;
     border-radius: 20px;
     padding: 2% 2%;
 }
+
 .illustration {
     width: 150px;
     height: 100%;
 }
+
 .mission {
     background-color: rgba(255, 99, 71, 0.15);
 }
+
 .vission {
     background-color: rgba(153, 205, 50, 0.15);
 }
+
 .goal {
     background-color: rgba(0, 255, 255, 0.15);
+}
+
+.develop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+
+.community {
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 400px;
+}
+.community div img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coading,
+.project {
+    display: flex;
+    justify-content: center;
+}
+.coading img,
+.project img {
+    width: auto;
+    height: 500px;
 }
