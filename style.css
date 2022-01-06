@@ -1,3 +1,5 @@
+/* common CSS */
+
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -69,7 +71,9 @@ section {
     display: inline-block;
     margin: 20px 0;
 }
+/* common CSS end */
 
+/* main start */
 .mission-p {
     padding-right: 20%;
 }
@@ -83,6 +87,9 @@ section {
     width: 600px;
     height: 100%;
 }
+/* main end */
+
+/* mission start */
 
 .my-mission h1 {
     display: flex;
@@ -119,6 +126,9 @@ section {
 .goal {
     background-color: rgba(0, 255, 255, 0.15);
 }
+/* mission end */
+
+/* develop start */
 
 .develop {
     display: flex;
@@ -129,7 +139,9 @@ section {
     background-position: left;
     background-size: 300px;
 }
+/* develop end */
 
+/* community start */
 .community {
     background-image: url(images/shapes/shape-5.png);
     background-repeat: no-repeat;
@@ -141,6 +153,9 @@ section {
     align-items: center;
     justify-content: center;
 }
+/* community end */
+
+/* latest project start */
 
 .own-project {
     background-image: url(images/shapes/shape-8.png);
@@ -149,9 +164,9 @@ section {
     background-size: 100px;
 }
 .own-project h2 {
-    color: tomato;
+    color: navy;
     text-align: center;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 .own-project-card {
     width: 300px;
@@ -166,6 +181,8 @@ section {
 .own-project-img img {
     width: 200px;
 }
+
+/* latest project end */
 
 /* footer Start */
 
