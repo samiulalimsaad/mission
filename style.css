@@ -12,10 +12,14 @@ p {
     color: #3f3f3f;
 }
 section {
+    padding: 0 10%;
+    margin-bottom: 150px;
+}
+
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5%;
 }
 .main div {
     width: 50%;
@@ -40,7 +44,40 @@ section {
 .mission-p {
     padding-right: 20%;
 }
+.main-image {
+    display: flex;
+    justify-content: center;
+}
 .main-image img {
     width: 80%;
     height: 700px;
+}
+.my-mission h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    color: navy;
+}
+.tomato {
+    color: tomato;
+    margin-left: 10px;
+}
+.card {
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 2% 2%;
+}
+.illustration {
+    width: 150px;
+    height: 100%;
+}
+.mission {
+    background-color: rgba(255, 99, 71, 0.15);
+}
+.vission {
+    background-color: rgba(153, 205, 50, 0.15);
+}
+.goal {
+    background-color: rgba(0, 255, 255, 0.15);
 }
