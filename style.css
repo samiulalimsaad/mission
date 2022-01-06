@@ -1,15 +1,9 @@
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    /* font-family: "Pacifico", cursive; */
 }
 h1 {
     font-size: 50px;
-    color: #333;
-    margin: 0;
-}
-h2 {
-    font-size: 40px;
     color: #333;
     margin: 0;
 }
@@ -19,6 +13,12 @@ p {
 section {
     padding: 0 10%;
     margin-bottom: 150px;
+}
+.community h2,
+.develop h2 {
+    font-size: 40px;
+    color: #333;
+    margin: 0;
 }
 
 .flex {
@@ -136,4 +136,21 @@ section {
 .project img {
     width: auto;
     height: 500px;
+}
+
+footer {
+    background-color: rgb(0, 0, 34);
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2 {
+    font-family: "Pacifico", cursive;
+    color: #f7f7f7;
+}
+footer h2 span {
+    color: yellowgreen;
+}
+footer p {
+    margin: 0;
+    color: #f7f7f7;
 }
